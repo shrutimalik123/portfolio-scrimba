@@ -313,6 +313,17 @@ header {
     left: -1.5em;
     width: calc(100% + 1.5em);
   }
+
+  .section__subtitle--founder {
+    grid-column: 2 / -1;
+    grid-row: 3;
+    text-align: right;
+    margin-top: 0.5em;
+    /* Reset positioning */
+    position: static;
+    left: auto;
+    width: auto;
+  }
 }
 
 /*  My services section  */
