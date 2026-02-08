@@ -297,6 +297,10 @@ header {
     grid-template-columns: min-content max-content;
   }
 
+  .section__title--intro {
+    grid-area: title;
+  }
+
   .intro__img {
     grid-area: img;
     min-width: 250px;
@@ -312,6 +316,7 @@ header {
     position: relative;
     left: -1.5em;
     width: calc(100% + 1.5em);
+    z-index: 1; /* Ensure it stays below the content if needed, but above background */
   }
 
   .section__subtitle--founder {
