@@ -290,7 +290,8 @@ header {
     display: grid;
     width: min-content;
     margin: 0 auto;
-    grid-column-gap: 1em;
+    grid-column-gap: 2em;
+    /* Increased from 1em to prevent overlap */
     grid-template-areas:
       "img title"
       "img subtitle";
@@ -316,7 +317,8 @@ header {
     position: relative;
     left: -1.5em;
     width: calc(100% + 1.5em);
-    z-index: 1; /* Ensure it stays below the content if needed, but above background */
+    z-index: 1;
+    /* Ensure it stays below the content if needed, but above background */
   }
 
   .section__subtitle--founder {
@@ -449,7 +451,7 @@ header {
 .portfolio__item:hover,
 .portfolio__item:focus {
   transform: translateY(-5px);
-  box-shadow: 0 0.5em 1em rgba(0,0,0,0.3);
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
 
