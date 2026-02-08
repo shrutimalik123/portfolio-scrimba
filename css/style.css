@@ -290,16 +290,19 @@ header {
     display: grid;
     width: min-content;
     margin: 0 auto;
-    grid-column-gap: 2em;
-    /* Increased from 1em to prevent overlap */
+    grid-column-gap: 3em;
+    /* Increased gap for better spacing */
+    grid-row-gap: 0.5em;
     grid-template-areas:
       "img title"
-      "img subtitle";
+      "img subtitle"
+      "img founder";
     grid-template-columns: min-content max-content;
   }
 
   .section__title--intro {
     grid-area: title;
+    align-self: end;
   }
 
   .intro__img {
@@ -311,22 +314,19 @@ header {
 
   .section__subtitle--intro {
     align-self: start;
-    grid-column: -1 / 1;
-    grid-row: 2;
+    grid-area: subtitle;
     text-align: right;
     position: relative;
-    left: -1.5em;
-    width: calc(100% + 1.5em);
+    left: 0;
+    /* Removed negative positioning */
+    width: 100%;
     z-index: 1;
-    /* Ensure it stays below the content if needed, but above background */
   }
 
   .section__subtitle--founder {
-    grid-column: 2 / -1;
-    grid-row: 3;
+    grid-area: founder;
     text-align: right;
     margin-top: 0.5em;
-    /* Reset positioning */
     position: static;
     left: auto;
     width: auto;
