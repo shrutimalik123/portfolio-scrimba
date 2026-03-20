@@ -1,11 +1,12 @@
-# Shruti Malik | Python & SQL Developer Portfolio
+# Shruti Malik | Hobby AI Engineer Portfolio
 
 <p align="center">
   <img src="img/logo.png" alt="Logo" width="100"/>
 </p>
 
 <p align="center">
-  <strong>Founder of <a href="https://dermassist.org">Derm Assist AI</a> & <a href="https://pharmalanding.net">Pharma Landing</a></strong>
+  <strong>Founder of <a href="https://medtools.net">MedTools.net</a></strong><br><br>
+  <a href="https://medtools.net">MedTools.net</a> is a comprehensive, AI-powered medical platform that serves as a unified hub for healthcare innovation. It brings together an advanced suite of applications spanning pharmacy, dermatology, and pathology, including RxSaverAI, PharmTechTutor, ClinRx, DermAssist, SkinDeep, and Pathology Atlas. Purpose-built to support clinicians, pathologists, pharmacists, pharmacy technicians, and medical students, the platform leverages cutting-edge artificial intelligence to streamline workflows, enhance diagnostic processes, and provide accessible, state-of-the-art educational resources for the medical community.
 </p>
 
 <p align="center">
@@ -27,7 +28,7 @@ Based in **Omaha, NE, USA**. 🇺🇸
 *Available for remote collaboration across all time zones.*
 
 ## 🚀 About the Project
-This is my professional portfolio, built to showcase my expertise in **Python development, SQL database management, and Data Engineering**. It serves as a central hub for my range of projects spanning AI, healthcare tech, and data visualization.
+This is my professional portfolio, built to showcase my passion and expertise as a **Hobby AI Engineer**. It serves as a central hub for my range of projects spanning AI development, healthcare tech, and data engineering.
 
 ### 🛠️ Tech Stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -44,8 +45,7 @@ This is my professional portfolio, built to showcase my expertise in **Python de
 - **Project Catalog**: A curated selection of data science and software engineering projects.
 
 ## 📁 Featured Projects
-- **[Derm Assist AI](https://dermassist.org)**: AI-powered dermatology triage.
-- **[Pharma Landing](https://pharmalanding.net)**: Specialized data solutions for pharmacy operations.
+- **[MedTools.net](https://medtools.net)**: AI-powered medical platform bringing together tools across pharmacy, dermatology, and pathology.
 - **[AI Enterprise Platform](https://github.com/shrutimalik123/Win-The-Job-Description)**: RAG-based assistant with microservices architecture.
 
 ---
