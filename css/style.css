@@ -433,6 +433,69 @@ header {
   text-align: center;
 }
 
+/*  Publications  */
+
+.my-publications {
+  background-color: #252525; /* Slightly different dark for contrast */
+  color: var(--clr-light);
+  text-align: center;
+}
+
+.section__title--publications {
+  color: var(--clr-accent);
+  position: relative;
+}
+
+.section__title--publications::after {
+  content: "";
+  display: block;
+  width: 2em;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  background: var(--clr-light);
+  opacity: 0.25;
+}
+
+.publications {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto 4em;
+}
+
+.publication {
+  flex: 1 1 300px;
+  max-width: 450px;
+  margin: 1em;
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  transition: transform 200ms ease-in-out, background 200ms ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.publication:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.publication h3 {
+  color: var(--clr-accent);
+  margin-bottom: 0.5em;
+}
+
+.publication p {
+  margin-bottom: 1.5em;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/*  My Work  */
+
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

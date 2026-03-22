@@ -50,6 +50,14 @@ This is my professional portfolio, built to showcase my passion and expertise as
 
 ---
 
+## 📚 Publications
+- **[MDedge / The Hospitalist](https://blogs.the-hospitalist.org/authors/shruti-malik-mbbs-mhsa)**: Contributing author sharing clinical insights and management strategies.
+- **[Pharmacy Times](https://www.pharmacytimes.com/authors/shruti-malik-mbbs-mhsa-cpht)**: Expert contributor providing perspectives on healthcare technology and pharmacy.
+
+---
+
+---
+
 ## 🔗 Quick Links
 - **Live Demo**: [dev-shruti.vercel.app](https://dev-shruti.vercel.app/)
 - **Design Layout**: [Adobe XD Spec](https://xd.adobe.com/spec/6ebfeb86-6eeb-4b69-77dc-ecf4c4506bcc-188e/grid)
