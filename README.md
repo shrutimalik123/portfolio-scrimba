@@ -1,4 +1,4 @@
-# Shruti Malik | Hobby AI Engineer Portfolio
+# Shruti Malik, MBBS, MHSA | Hobby AI Engineer Portfolio
 
 <p align="center">
   <img src="img/logo.png" alt="Logo" width="100"/>
@@ -55,4 +55,4 @@ This is my professional portfolio, built to showcase my passion and expertise as
 - **Design Layout**: [Adobe XD Spec](https://xd.adobe.com/spec/6ebfeb86-6eeb-4b69-77dc-ecf4c4506bcc-188e/grid)
 
 ---
-<p align="center">Made with ❤️ by Shruti Malik</p>
+<p align="center">Made with ❤️ by Shruti Malik, MBBS, MHSA</p>
